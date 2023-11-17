@@ -32,3 +32,8 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## My Analysis 
+
+My implementation uses a recursive approach with examining edge capacities to find augmenting paths in the graph. In the worst case scenario, the algorithm checks all possible paths, determining by the number of vertices (V) the number of edges (E), resulting in a overall complexity of $\Theta(V + E)$
+
